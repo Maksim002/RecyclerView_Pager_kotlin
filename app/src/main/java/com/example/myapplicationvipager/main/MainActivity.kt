@@ -56,6 +56,7 @@ class MainActivity : FragmentActivity() {
         list.add(oneList)
         list.add(twoList)
 
+
         val adapter = NumberAdapterPager(this)
         adapter.addImage(list)
         pager.adapter = adapter
